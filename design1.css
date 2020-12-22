@@ -1,0 +1,300 @@
+*{
+	margin:0px;
+	border:0px;
+}
+
+body{
+	background-image: url("green3.jpg");
+        background-repeat: no-repeat;
+ 	background-size:cover;
+	
+}
+
+.click1{
+        padding:2%;
+	margin:2% 35% 0% 35%;
+	color: red;
+	text-align:center;
+	font-size:1.3vw;
+	background-color:RGB(0,90,0);
+	float:center;
+	color:white;
+	border-radius:30%;
+	box-shadow:20px 10px 20px 10px grey;
+	
+}
+
+.click2{
+        padding:2%;
+	margin:5% 35% 0% 35%;
+	color: red;
+	text-align:center;
+	font-size:1.3vw;
+	background-color:RGB(0,90,0);
+	float:center;
+	color:white;
+	border-radius:30%;
+	box-shadow:20px 10px 20px 10px grey;
+	
+}
+
+
+.input{
+        padding:2%;
+	margin:5% 15% 10% 15%;
+ 	border: solid black 0px;
+	font-size:2vw;
+	box-shadow:5px 5px 5px 5px grey inset;
+}
+
+.p1{
+	padding:5%;
+	margin:0% 20% 5% 20%;
+	text-align:center;
+	font-size:2vw;
+        align-items: center;
+        justify-content:center;
+	color:black;
+	border-radius:3%;
+	border: 10px solid rgb(0,90,0);
+        font-weight:bold;
+}
+
+.p2{
+	padding:3% 9% 5% 9%;
+	margin:5% 20% 0% 20%;
+	border: solid black 1%;
+	font-size:2vw;
+       align-items: center;
+       justify-content:center;
+	text-align: center;
+	color:black;
+	font-weight:bold;
+	
+	
+}
+
+@media (max-width:3000px)
+{
+	
+.click1{
+        padding:4%;
+	margin:2% 35% 5% 35%;
+	color: red;
+	text-align:center;
+	font-size:1.2vw;
+	background-color:RGB(0,90,0);
+	float:center;
+	color:white;
+	border-radius:30%;
+	box-shadow:2px 2px 2px 2px grey;
+	
+}
+
+.click2{
+        padding:4%;
+	margin:5% 35% 10% 35%;
+	color: red;
+	text-align:center;
+	font-size:1.2vw;
+	background-color:RGB(0,90,0);
+	float:center;
+	color:white;
+	border-radius:30%;
+	box-shadow:3px 3px 3px 3px grey;
+	
+}
+
+
+.input{
+        padding:2%;
+	margin:5% 10% 10% 5%;
+ 	border: solid black 0px;
+	font-size:3vw;
+	box-shadow:1px 1px 1px 1px grey inset;
+}
+
+.p1{
+	padding:5%;
+	margin:0% 20% 5% 20%;
+	text-align:center;
+	font-size:2vw;
+        align-items: center;
+        justify-content:center;
+	color:black;
+	border-radius:3%;
+	border: 2px solid rgb(0,90,0);
+        font-weight:bold;
+}
+
+.p2{
+	padding:3% 9% 5% 9%;
+	margin:5% 20% 0% 20%;
+	border: solid black 1%;
+	font-size:2vw;
+       align-items: center;
+       justify-content:center;
+	text-align: center;
+	color:black;
+	font-weight:bold;
+	
+	
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:800px)
+{
+	
+.click1{
+        padding:4%;
+	margin:2% 35% 5% 35%;
+	color: red;
+	text-align:center;
+	font-size:2vw;
+	background-color:RGB(0,90,0);
+	float:center;
+	color:white;
+	border-radius:30%;
+	box-shadow:2px 2px 2px 2px grey;
+	
+}
+
+.click2{
+        padding:4%;
+	margin:5% 35% 10% 35%;
+	color: red;
+	text-align:center;
+	font-size:2vw;
+	background-color:RGB(0,90,0);
+	float:center;
+	color:white;
+	border-radius:30%;
+	box-shadow:3px 3px 3px 3px grey;
+	
+}
+
+
+.input{
+        padding:2%;
+	margin:5% 10% 10% 2%;
+ 	border: solid black 0px;
+	font-size:3.4vw;
+	box-shadow:1px 1px 1px 1px grey inset;
+}
+
+.p1{
+	padding:5%;
+	margin:0% 20% 5% 20%;
+	text-align:center;
+	font-size:3.3vw;
+        align-items: center;
+        justify-content:center;
+	color:black;
+	border-radius:3%;
+	border: 2px solid rgb(0,90,0);
+        font-weight:bold;
+}
+
+.p2{
+	padding:3% 9% 5% 9%;
+	margin:5% 20% 0% 20%;
+	border: solid black 1%;
+	font-size:3vw;
+       align-items: center;
+       justify-content:center;
+	text-align: center;
+	color:black;
+	font-weight:bold;
+	
+	
+}
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:500px)
+{
+	
+.click1{
+        padding:4%;
+	margin:2% 35% 5% 35%;
+	color: red;
+	text-align:center;
+	font-size:2.5vw;
+	background-color:RGB(0,90,0);
+	float:center;
+	color:white;
+	border-radius:30%;
+	box-shadow:2px 2px 2px 2px grey;
+	
+}
+
+.click2{
+        padding:4%;
+	margin:5% 35% 10% 35%;
+	color: red;
+	text-align:center;
+	font-size:2.5vw;
+	background-color:RGB(0,90,0);
+	float:center;
+	color:white;
+	border-radius:30%;
+	box-shadow:3px 3px 3px 3px grey;
+	
+}
+
+
+.input{
+        padding:2%;
+	margin:5% 5% 5% 2%;
+ 	border: solid black 0px;
+	font-size:3.4vw;
+	box-shadow:1px 1px 1px 1px grey inset;
+}
+
+.p1{
+	padding:5%;
+	margin:0% 20% 5% 20%;
+	text-align:center;
+	font-size:3.9vw;
+        align-items: center;
+        justify-content:center;
+	color:black;
+	border-radius:3%;
+	border: 2px solid rgb(0,90,0);
+        font-weight:bold;
+}
+
+.p2{
+	padding:3% 9% 5% 9%;
+	margin:5% 20% 0% 20%;
+	border: solid black 1%;
+	font-size:3.8vw;
+       align-items: center;
+       justify-content:center;
+	text-align: center;
+	color:black;
+	font-weight:bold;
+	
+	
+}
+
+}

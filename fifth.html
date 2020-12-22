@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport"
+content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="design1.css">
+</head>
+<body>
+
+<p class="p2">
+
+Enter the  Ph value of the soil .
+<br>
+
+
+<input class="input" id="newValue" value=" " maxlength="5" />
+
+
+<button class="click1"
+onclick="myFunction()"> Check </button>
+
+<br>
+
+<button class="click2"
+onclick="window.location.reload();"> Clear Result </button>
+
+
+<p class="p1" id="demo"> </p>
+
+
+
+</p>
+
+
+<script>
+function myFunction()
+{
+var Ph ,result;
+
+Ph = Number(document.getElementById("newValue").value);
+
+if(Ph==" ")
+	{
+		result="Enter a number";
+}
+
+else if (isNaN(Ph)) {
+		result= "Enter a valid number";
+}
+
+
+
+else if( Ph < 0 )
+{		
+	result= "Enter a vaid Ph value";
+}
+
+
+
+
+
+else if( Ph < 6.5 )
+	{
+		result= "Ph value is <b> LESS </b> <br> kindly add fertilizers to make the ph value between 6.5 - 7.5 <br> <br> <li>Limestone</li> <br> <li> chicken Manure</li> <br>  <li> Fish Bone meal</li> <br>  <li> Fish Emulsion </li> <br>   <li> <a class='a2' href ='ferti.html' >  amount of the fertilizers for indoor plants </li> <br>   ";
+}
+
+else if( Ph <= 7.5)
+{
+               result=" ph is perfect <br> Add compost to maintain the Ph of the soil <br>1/2 inch on the soil <br> once a month";
+}
+else if( Ph < 14) {
+		 result = " Ph value is<b> MORE </b> <br> kindly add fertilizers to make the ph value between 6.5 - 7.5 <br> <br> Add Organic Fertilizers <br> <br> <li>Compost</li> <br> <li> Blood Meal </li> <br>  <li> Cow Manure </li> <br> <li> Horse Manure </li>   <br> <li> Vermicompost </li>  <br> <li> Alfalfa meal </li>   <li> <a class='a2' href ='ferti.html' >  amount of the fertilizers for indoor plants </li> <br>";
+}
+
+else if(Ph > 14 ) {
+                        result = " Enter a valid Ph value ";
+}
+
+
+
+
+document.getElementById("demo").innerHTML=result;
+}
+
+
+function clearValue()
+{
+	document.getElementById("demo").innerHTML=' ';
+}
+	
+</script>
+</body>
+</html>

@@ -1,0 +1,194 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+.div1{
+	max-width:100%;
+	
+}
+
+
+
+h1 {
+	font-size:2vw;
+      text-align:center;
+	margin:5%;
+	letter-spacing:0.1rem;
+	color:black;
+}
+
+
+.para{
+	
+	font-size:1.3vw;
+      	text-align:center;
+	 margin:5%;
+	padding:5%;
+	background-color:rgb(0,0,0);
+	background-color:rgba(0,0,0, 0.1);
+	border-radius:1%;	
+
+}
+
+.divmain{
+		width:40%;
+		height:40%;
+		position:absolute;
+		margin: 1% 15% 10% 25%;
+		padding:5%;
+		background-size:cover;
+		animation: slider 10s infinite linear;
+}
+
+
+
+
+
+
+@keyframes slider
+		{
+			0% {
+background-image:url("plants/c3.jpg");
+				}
+
+			35% {
+background-image:url("plants/c2.jpg");}
+
+			75% { 
+background-image:url("plants/c1.jpg");}
+
+}
+
+		
+@media (max-width:3000px)
+{
+
+	
+h1 {
+	font-size:2vw;
+      text-align:center;
+	margin:5%;
+	letter-spacing:0.03rem;
+	color:black;
+}
+
+.para{
+	
+	font-size:2vw;
+      text-align:center;
+       margin:5%;
+      padding:1%;
+	background-color:rgb(0,0,0);
+	background-color:rgba(0,0,0, 0.1);
+	border-radius:1%;	
+
+
+}
+
+
+.divmain
+{ 		width:50%;
+		height:30%;
+		position:absolute;
+		margin: 1% 15% 10% 19%;
+		padding:5%;
+		background-size:cover;
+		animation: slider 9s infinite linear;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+		
+@media (max-width:800px)
+{
+
+	
+h1 {
+	font-size:2.5vw;
+      text-align:center;
+	margin:5%;
+	letter-spacing:0.03rem;
+	color:black;
+}
+
+.para{
+	
+	font-size:2.2vw;
+      text-align:justify;
+       margin:5%;
+      padding:1%;
+      background-color:rgb(0,0,0);
+	background-color:rgba(0,0,0, 0.1);
+	border-radius:1%;	
+
+
+}
+
+
+.divmain
+{ 		width:50%;
+		height:30%;
+		position:absolute;
+		margin: 1% 15% 10% 19%;
+		padding:5%;
+		background-size:cover;
+		animation: slider 9s infinite linear;
+}
+
+
+}
+
+
+
+
+
+		
+@media (max-width:500px)
+{
+
+	
+h1 {
+	font-size:4vw;
+      text-align:center;
+	margin:5%;
+	letter-spacing:0.03rem;
+	color:black;
+}
+
+.para{
+	
+	font-size:4vw;
+      text-align:center;
+       margin:5%;
+      padding:1%;
+	background-color:rgb(0,0,0);
+	background-color:rgba(0,0,0, 0.1);
+	border-radius:1%;	
+
+}
+
+
+.divmain{
+		width:90%;
+		height:30%;
+		position:absolute;
+		margin: 5% 0% 5% 0%;
+		padding:5%;
+		background-size:cover;
+		animation: slider 9s infinite linear;
+}
+
+
+}

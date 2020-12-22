@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport"
+content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="fer.css ">
+</head>
+<body>
+<div class="main">
+
+<p>
+<nav class="nav1">
+<ul>
+<li class="list"><a class="a1" href="index.html">Back to Home </a></li>
+</ul>
+</nav>
+</p>
+
+<h1> Read the Instructions carefully.<br></h1>
+<h1> <b> If The result of Ph value is Less check here</b></h1> 
+<h1> <br> How much amount of fertilizers to feed ? <br> It will return a result for Indoor Plants.<br> write a number diplayed above the fertilizer's name you will choose and check for the result.  </h1>
+
+
+
+<nav class="nav2">
+<li class="list2"> 1 <br> Limestone</li>
+<li class="list2"> 2 <br>Chicken Manure</li>
+<li class="list2"> 3 <br> Fish Bone Meal</li>
+<li class="list2"> 4 <br>Fish Emulsion</li>
+
+</nav>
+
+
+<div class="div1">
+
+
+<input class="in" id="green"  value=" "  maxlength="3">
+
+
+<button  class="but"
+onclick="newfunction()">check </button>
+
+
+
+<button class="but"
+onclick="window.location.reload();"> clear </button>
+</div>
+<p class="para" id="content" > </p>
+</div>
+
+<script>
+
+
+
+
+function newfunction() {
+	var b,c;
+	b= Number(document.getElementById("green").value);
+
+switch (b)
+{
+  case 1:
+	c= " Limestone Fertilizer Mix 21.25 grams in 3 liters of water and  eventually spread it.<br>  <br> <a class='a2' href='https://www.amazon.in/TSR-Fertilisers-Pesticides-Organic-Agriculture/dp/B07HWVPBM2/ref=sr_1_5?dchild=1&keywords=lime+fertilizer&qid=1608562620&s=garden&sr=1-5'>check it on Amazon</a>";
+break;
+
+case 2:
+	c="Chicken Manure <br> Mix 1 tablespoon(21.25 grams)  Chicken Manure in 3 cups of water and  you can add compost in small amount. <br> <br> <a class='a2' href='https://www.amazon.in/dp/B08MJGRHRY/ref=cm_sw_r_wa_apa_i_XEi1FbV59KKHN'>check it on Amazon</a>  ";
+break;
+
+
+case 3:
+	c="Fish Bone meal <br> 170 grams per cubic foot<br>  <br> <a class='a2' href='https://www.amazon.in/GENERIC-Indian-Organic-Manure-Fish-Plants/dp/B077D9FYQW/ref=sr_1_9?crid=3LCI0ZS248N9P&dchild=1&keywords=fish+bone+meal+fertilizer+for+plants&qid=1608561156&sprefix=fish+bone+me%2Caps%2C748&sr=8-9'>check it on Amazon</a>    ";
+break;
+
+
+
+case 4:
+	c="Fish Emulsion <br> Add 21.25 grams with 3.78 liters of water <br> Then water the plants using that fish water.<br>  <br> <a class='a2' href='https://www.amazon.in/OrganicDews-Fertilizer-Measuring-Purpose-Vigorous/dp/B076YGLZN9/ref=sr_1_1?dchild=1&keywords=fish+emulsion&qid=1608561577&sr=8-1'>check it on Amazon</a> ";
+break;
+
+
+
+default:
+c="Enter a valid number";
+}
+
+document.getElementById("content").innerHTML= c;
+}
+	
+
+
+</script>
+
+
+
+
+<h1> Read the Instructions carefully.<br></h1>
+<h1> <b> If The result of Ph value is   More check here</b></h1>
+<h1> How much amount of fertilizers to feed ? <br> It will return a result for Indoor Plants.<br> write a number diplayed above the fertilizer's name you will choose and check for the result.  </h1>
+
+
+
+<nav class="nav2">
+<li class="list2"> 1 <br> Compost</li>
+<li class="list2"> 2 <br>Blood meal</li>
+<li class="list2"> 3 <br> cow Manure</li>
+<li class="list2"> 4 <br>Horse Manure</li>
+<li class="list2"> 5 <br>Vermicompost</li>
+<li class="list2"> 6 <br> Alfalfa meal</li>
+
+
+</nav>
+
+
+<div class="div1">
+
+
+<input class="in" id="green1"  value=" "  maxlength="3">
+
+
+<button  class="but"
+onclick="newfunction1()">check </button>
+
+
+
+<button class="but"
+onclick="window.location.reload();"> clear </button>
+</div>
+<p class="para" id="content1" > </p>
+</div>
+
+<script>
+
+
+
+
+function newfunction1() {
+	var b,c;
+	b= Number(document.getElementById("green1").value);
+
+switch (b)
+{
+  case 1:
+	c= " Compost<br> Add 1/2 inch of Compost on the soil <br> Once a month.<br> <br> <a class='a2' href='compost.wmv'>how to make a compost </a> <br> <br> <a class='a2' href='first.html'>check it on Amazon</a>";
+break;
+
+
+case 2:
+	c="Blood meal <br> Add 21.25 grams with 3.78 liters <br> Then water the plants.<br>  <br> <a class='a2' href='https://www.amazon.in/PerFarmers-480gm-Fertilizer-Home-Garden/dp/B06XR2NBZH/ref=sr_1_1?dchild=1&keywords=blood+meal&qid=1608561926&sr=8-1'>check it on Amazon</a> ";
+break;
+
+case 3:
+	c="Cow Manure <br> Mix 1 tablespoon(21.25 grams)  cow Manure in 4 cups of water and  you can add compost in small amount. <br> <br> <a class='a2' href='https://www.amazon.in/Ugaoo-Cow-Manure-Kg-Fertilizer/dp/B07RGTVD1P/ref=sr_1_9?crid=1XJO21VAVSC&dchild=1&keywords=organic+fertilizer+for+flowering+plants&qid=1608560854&sprefix=organic+fertilizers+for+flo%2Caps%2C702&sr=8-9'>check it on Amazon</a>  ";
+break;
+
+
+case 4:
+	c="Horse Manure <br> Mix 1 tablespoon(21.25 grams)  cow Manure in 4 cups of water and  you can add compost in small amount. <br> <br> <a class='a2' href='https://www.amazon.in/Greenon-Horse-Manure-2kg/dp/B07BWLPKQG/ref=sr_1_17?dchild=1&keywords=horse+manure+fertilizer+for+plants&qid=1608561329&sr=8-17'>check it on Amazon</a>    ";
+break;
+
+
+
+case 5:
+	c="Vermicompost <br> Add 21.25 grams with 4 cups of water<br> Then water the plants.<br>  <br> <a class='a2' href='https://www.amazon.in/TrustBasket-Organic-Vermicompost-Fertilizer-Manure/dp/B07PRXV7MJ/ref=sr_1_5?crid=1XJO21VAVSC&dchild=1&keywords=organic+fertilizer+for+flowering+plants&qid=1608560854&sprefix=organic+fertilizers+for+flo%2Caps%2C702&sr=8-5'>check it on Amazon</a> ";
+break;
+
+
+case 6:
+	c="Alfalfa meal <br> Add 21.25 grams with 3.78 liters of water<br> Then water the plants.<br> <br> <a class='a2' href='https://www.amazon.in/Alfalfa-2-80-0-29-2-40-Organic-Greenway-Biotech/dp/B01IPQZCM6/ref=sr_1_1?dchild=1&keywords=alfalfa+meal&qid=1608562062&sr=8-1'>check it on Amazon</a> ";
+break;
+
+
+default:
+c="Enter a valid number";
+}
+
+document.getElementById("content1").innerHTML= c;
+}
+	
+
+</script>
+
+
+</body>
+</html>
